@@ -1,0 +1,52 @@
+/* src/styles.css */
+
+#quote-box {
+    width: 80%;
+    margin: auto; /* Centers the element horizontally */
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: #333; /* Darker text color for better contrast */
+  }
+  
+  #text {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  #author {
+    font-size: 1rem;
+    margin-bottom: 20px;
+    color: #555; /* Slightly darker author text color */
+  }
+  
+  button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  
+  button#new-quote {
+    margin-top: 10px; /* Add some space between the buttons */
+  }
+  
+  button#tweet-quote {
+    background-color: #1fd628;
+  }
+  
+  button#tweet-quote:hover {
+    background-color: #07ca5f;
+  }
+  
+  button:hover {
+    background-color: #7a7c7e;
+    opacity: 0.8;
+  }
+  
